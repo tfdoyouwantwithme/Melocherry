@@ -4,6 +4,10 @@ body{
     background-color: #FFF9FB;
 }
 
+p{
+    font-size: 1.2em;
+}
+
 .bg-body-tertiary{
     background-color: #F0C4C9 !important;
     padding-top: 2rem;
@@ -47,6 +51,7 @@ h5{
 
 .navbar-brand{
     color: #A50133;
+    
 }
 
 .nav-item{
@@ -121,6 +126,7 @@ h5{
 }
 
 /*CARD SECTION*/
+
 .card-info{
     padding: 5em;
     text-align: center;
@@ -141,8 +147,127 @@ h5{
 }
 
 .about-image{
-    background-color: #FFF9FB;
+    height: 40em;
+    font-weight: 4em;
+    margin-left: 5em;
+    margin-top: 5em;
 }
+
+.about-text{
+    display: flex;
+    align-items: left;
+    padding: 5em;
+}
+
+.about-info{
+    list-style-type:none ;
+}
+
+/*INFO SECTION*/
+.info-text{
+    background-color: #717AB5;
+    color: #FFF9FB;
+    padding: 7em;
+    text-align: center;
+}
+
+/*ACCORDION SECTION*/
+
+.accordion-button{
+    background-color: #FFFBF9;
+    color: #717AB5;
+    font-weight: bold;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+/*CONTACT US FORM SECTION*/
+/*Unfortunately this section is the most confusing*/
+
+.details{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: none;
+    border-radius: 1rem;
+    padding: 1em;
+    display: flex;
+    margin: 3em;
+}
+
+input[type=text]:focus{
+    border: solid 2px #717AB5 ;
+    background-color: #FFFBF9;
+}
+
+input[type=text]:invalid{
+    border: solid 2px #A50133;
+    background-color: #FFEEEE;
+}
+
+input[type=text], select, textarea{
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #EA7480;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    resize: horizontal;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    
+}
+
+
+input[type=email]{
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #EA7480;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    resize: horizontal;
+}
+
+input[type=tel]{
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #EA7480;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    resize: horizontal;
+}
+
+
+
+button{
+    color: #FFF9FB;
+    background-color:#EA7480;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 1.2rem;
+    padding: 7px 30px;
+    border: #A50133 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+button:hover{
+    background-color: #FFF9FB;
+    color: #A50133;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+fieldset{
+    border: 0;
+}
+
+/*legend{
+    text-align: center;
+    color: #717AB5;
+    font-weight: bold;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 12px;
+}*/ /*Redundant CSS*/
+
 
 /*FOOTER SECTION*/
 
