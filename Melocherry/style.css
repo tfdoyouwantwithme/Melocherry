@@ -188,8 +188,8 @@ h5{
     font-weight: bold;
     background-color: none;
     border-radius: 1rem;
-    padding: 1em;
-    display: flex;
+    padding: 2em;
+    display: block;
     margin: 3em;
 }
 
@@ -198,10 +198,10 @@ input[type=text]:focus{
     background-color: #FFFBF9;
 }
 
-input[type=text]:invalid{
+/*input[type=text]:invalid{
     border: solid 2px #A50133;
     background-color: #FFEEEE;
-}
+}*/
 
 input[type=text], select, textarea{
     width: 90%;
