@@ -349,6 +349,13 @@ fieldset{
     padding: 3em;
 }
 
+.steps-list{ 
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 5em;
+    list-style: none;
+}
+
 
 /*FOOTER SECTION*/
 
